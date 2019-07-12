@@ -26,7 +26,7 @@ module "function_app" {
   resource_group_name      = "${azurerm_resource_group.image_resizer.name}"
   location                 = "${azurerm_resource_group.image_resizer.location}"
   environment              = "lab"
-  function_verion          = "beta"
+  function_version         = "beta"
   release                  = "release 2018-07-21.001"
   account_replication_type = "LRS"
   
